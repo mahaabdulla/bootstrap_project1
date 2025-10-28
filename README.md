@@ -1,2 +1,2 @@
 # bootstrap_project1
-this is ecommeric website
+this is ecommeric websit
