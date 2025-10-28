@@ -2,68 +2,91 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Example</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <div class="container my-3">
-    <h1 class="mb-4 text-center">Hello To My Website</h1>
-    <!-- btns -->
-    <div class="text-center mb-5">
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-secondary">Secondary</button>
-      <button type="button" class="btn btn-outline-success">Success</button>
-      <button type="button" class="btn btn-outline-danger">Danger</button>
-      <button type="button" class="btn btn-outline-warning">Warning</button>
+    <div class="container my-3">
+        <h1 class="mb-4 text-center">Hello To My Website</h1>
+
+
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav justify-content-center w-100">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- btns -->
+        <div class="text-center mb-5">
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+        </div>
+
+        <!-- row of cards-->
+        <div class="row g-4">
+            <!-- card one-->
+            <div class="col-md-4">
+                <div class="card short-card">
+                    <img src="./images/woemn-sheert.jpg" class="card-img-top" alt="T-shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Nice T-shirt</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sce card-->
+            <div class="col-md-4">
+                <div class="card short-card">
+                    <img src="./images/pink-womer-sheert.jpg" class="card-img-top" alt="Pink T-shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink T-shirt</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- theerd card-->
+            <div class="col-md-4">
+                <div class="card short-card">
+                    <img src="./images/shoose.jpg" class="card-img-top" alt="Shoes">
+                    <div class="card-body">
+                        <h5 class="card-title">Nice Shoes</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- row of cards-->
-    <div class="row g-4">
-      <!-- card one-->
-      <div class="col-md-4">
-        <div class="card short-card">
-          <img src="./images/woemn-sheert.jpg" class="card-img-top" alt="T-shirt">
-          <div class="card-body">
-            <h5 class="card-title">Nice T-shirt</h5>
-            <p class="card-text">Some quick example text to build on the card title.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
 
-      <!-- sce card-->
-      <div class="col-md-4">
-        <div class="card short-card">
-          <img src="./images/pink-womer-sheert.jpg" class="card-img-top" alt="Pink T-shirt">
-          <div class="card-body">
-            <h5 class="card-title">Pink T-shirt</h5>
-            <p class="card-text">Some quick example text to build on the card title.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- theerd card-->
-      <div class="col-md-4">
-        <div class="card short-card">
-          <img src="./images/shoose.jpg" class="card-img-top" alt="Shoes">
-          <div class="card-body">
-            <h5 class="card-title">Nice Shoes</h5>
-            <p class="card-text">Some quick example text to build on the card title.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
