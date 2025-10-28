@@ -1,4 +1,4 @@
-/* كارد قصير */
+
 .short-card {
   height: 400px !important;        
   overflow: hidden;
@@ -40,4 +40,21 @@
 .short-card .btn {
   font-size: 13px;
   padding: 4px 10px;
+}
+
+
+.navbar-custom {
+  background-color: #0d6efd;
+}
+
+.navbar-custom .nav-link {
+  color: white;             
+}
+
+.navbar-custom .nav-link:hover {
+   color: rgb(138, 143, 240) !important;       
+}
+
+.navbar-custom .nav-link.active {
+  color: rgb(38, 21, 165) !important;  
 }
