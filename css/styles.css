@@ -58,3 +58,9 @@
 .navbar-custom .nav-link.active {
   color: rgb(38, 21, 165) !important;  
 }
+
+.logo-img {
+  border: 1px solid white;  
+  border-radius: 20px;       
+              
+}
