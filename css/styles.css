@@ -1,5 +1,5 @@
 .short-card {
-  height: 400px !important;
+  height: 440px !important;
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -67,4 +67,9 @@
 .carousel-item {
   height: 500px !important;
   width: 100% !important;
+}
+
+.stars i {
+  color: gold;
+  margin-right: 2px;
 }
